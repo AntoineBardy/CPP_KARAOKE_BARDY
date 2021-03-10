@@ -5,7 +5,7 @@ class Player
 {
     private:
         std::string _nom;
-        int _score[5] = {0,30,90,40,60};
+        int _score[5] = {0,10,20,30,50};
 
     public:
         void Score(int score, int chanson);
