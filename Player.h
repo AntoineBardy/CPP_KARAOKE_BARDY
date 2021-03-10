@@ -9,8 +9,8 @@ class Player
 
     public:
         void addScore(int score, int chanson);
-        void printScore();
-        void printBestScore(); 
+        void AfficherScore();
+        void printMeilleurScore(); 
         void printScoreTotal(); 
         Player(std::string nom);    
 };
